@@ -1,0 +1,330 @@
+pricing-table-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.6em;
+	color: #FFF;
+	margin-top: 15px;
+	text-align: left;
+	margin-bottom: 25px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.pricing-table-title a {
+	font-size: 0.6em;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
+}
+/** ========================
+ * Contenedor
+ ============================*/
+
+
+.pricing-table {
+	margin: 0 10px;
+	text-align: center;
+	width: 100%;
+	float: left;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.pricing-table:hover {
+	-webkit-transform: scale(1.06);
+	-ms-transform: scale(1.06);
+	-o-transform: scale(1.06);
+	transform: scale(1.06);
+}
+
+.pricing-title {
+	color: #FFF;
+	background: #e95846;
+	padding: 20px 0;
+	font-size: 2em;
+	text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    margin: 0;
+}
+
+.pricing-table.recommended .pricing-title {
+	background: #2db3cb;
+}
+
+.pricing-table.recommended .pricing-action {
+	background: #2db3cb;
+}
+
+.pricing-table .price {
+	background: #403e3d;
+	font-size: 3.4em;
+	font-weight: 700;
+	padding: 20px 0;
+    // text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+.pricing-table .price sup {
+	font-size: 0.4em;
+	position: relative;
+	left: 5px;
+}
+
+.table-list {
+	background: #FFF;
+    color: #403d3a;
+    margin: 0;
+    padding: 0;
+}
+
+.table-list li {
+	font-size: 1.0em;
+	font-weight: 700;
+	padding: 12px 8px;
+}
+
+.table-list li:before {
+	content: "\f00c";
+	font-family: "Font Awesome 5 Free";
+	color: #3fab91;
+	display: inline-block;
+	position: relative;
+	right: 5px;
+	font-size: 16px;
+} 
+
+.table-list li span {
+	font-weight: 400;
+}
+
+.table-list li span.unlimited {
+	color: #FFF;
+	background: #e95846;
+	font-size: 0.9em;
+	padding: 5px 7px;
+	display: inline-block;
+	-webkit-border-radius: 38px;
+	-moz-border-radius: 38px;
+	border-radius: 38px;
+}
+
+
+.table-list li:nth-child(2n) {
+	background: #F0F0F0;
+}
+
+.table-buy {
+	background: #FFF;
+	padding: 15px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.table-buy p {
+	float: left;
+	color: #37353a;
+	font-weight: 700;
+	font-size: 2.4em;
+}
+
+.table-buy p sup {
+	font-size: 0.5em;
+	position: relative;
+	left: 5px;
+}
+
+.table-buy .pricing-action {
+	float: right;
+	color: #FFF;
+	background: #e95846;
+	padding: 10px 16px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-weight: 700;
+	font-size: 1.4em;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.table-buy .pricing-action:hover {
+	background: #cf4f3e;
+}
+
+.recommended .table-buy .pricing-action:hover {
+	background: #228799;	
+}
+
+/** ================
+ * Responsive
+ ===================*/
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+ 	.pricing-wrapper {
+ 		width: 768px;
+ 	}
+
+ 	.pricing-table {
+ 		width: 236px;
+ 	}
+	
+	.table-list li {
+		font-size: 1.3em;
+	}
+
+ }
+
+ @media only screen and (max-width: 767px) {
+ 	.pricing-wrapper {
+ 		width: 420px;
+ 	}
+
+ 	.pricing-table {
+ 		display: block;
+ 		float: none;
+ 		margin: 0 0 20px 0;
+ 		width: 100%;
+ 	}
+ }
+
+@media only screen and (max-width: 479px) {
+	.pricing-wrapper {
+		width: 300px;
+	}
+} 
+
+.modal-body{
+	.center{
+
+		.contact-info{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			.card{
+					position: relative;
+					flex: 1;
+					max-width: 300px;
+					height: 140px;
+					background-color: #444;
+					margin: 20px;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					.icon{
+						font-size: 32px;
+						color: #ea8685;
+						transition: .3s linear;
+					}
+					.card-contact{
+						width: 100%;
+						h3, span{
+							top: 20px;
+					text-transform: uppercase;
+					color: #ea8685;
+					position: absolute;
+					left: 50%;
+					transform: translateX(-50%);
+					font-size: 13px;
+					opacity: 0;
+						}
+					
+					}
+
+					&:hover{
+						.icon{
+							transform: scale(4);
+    						opacity: 0;
+						}
+
+						.card-contact{
+							h3{
+							opacity: 1;
+							top: 46px;
+							transition: .3s linear .3s;
+							width: 100%;
+							text-align: center;
+							}
+							span{
+								opacity: 1;
+								top: 76px;
+								transition: .3s linear .3s;
+								color: #fff;
+								position: absolute;
+								text-transform: lowercase;
+								width: 100%;
+							text-align: center;
+							a{
+								color: #fff;
+							}
+							}
+						}
+					}
+			}
+		}
+
+		.contat-from-wrapper{
+			// padding: 0 69px;
+			margin-top: 5px;
+		}
+		#cform{
+			input[type="text"],  input[type="email"]{
+				
+					width: 100%;
+					display: block;
+					outline: none;
+					border-bottom: 1px solid #e84d49;
+					background-color: inherit;
+					color: #404040;
+					font-size: 21px;
+					line-height: 23px;
+					padding-bottom: 24px;
+					border-top: 0pc;
+					border-left: 0px;
+					border-right: 0px;
+			}
+	
+			textarea{
+				width: 100%;
+				display: block;
+				outline: none;
+				border-bottom: 1px solid #e84d49;
+				background-color: inherit;
+				color: #404040;
+				font-size: 21px;
+				line-height: 23px;
+				padding-bottom: 24px;
+				border-top: 0pc;
+				border-left: 0px;
+				border-right: 0px;
+				height: 77px;
+				margin-top: 56px;
+			}
+			input[type="submit"] {
+				display: block;
+				border: none;
+				outline: none;
+				width: 200px;
+				line-height: 60px;
+				text-transform: uppercase;
+				font-size: 21px;
+				color: #FFF;
+				font-weight: 800;
+				letter-spacing: 2px;
+				background-color: #e84d49;
+				margin: 41px auto;
+				margin-bottom: 0;
+			}
+		}
+
+	}
+}

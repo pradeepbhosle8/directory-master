@@ -1,0 +1,180 @@
+#headerSection{
+	.logo{
+		padding: 0.7rem;
+	}
+	
+	.header-text{
+		width: 169px;
+		p{
+			font-size: 12px;
+		}
+	}
+
+
+	.btn-search{
+		height: 39px;
+		width: 100px;
+		border: 1px solid #ffd515;
+		background-color: #ffd515;
+		border-radius: 3px;
+		outline: none;
+	}
+	.buisneswrap{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		li{
+			padding: 23px 19px;
+			a{
+				color: #fff;
+				padding: 15px 0;
+				transition: all .1s ease-in-out;
+				font-size:0.8vw;
+
+				&:hover{
+					color: #000;
+				}
+			}
+			.buisneswrapdropdown{
+				margin: 10px 0 !important;
+				padding: 0;
+				background-color: #ca0d35 !important;
+    			
+				li{
+					padding: 0;
+					margin: 0;
+					a{
+						padding: 5px;
+						text-align: center;
+						border-bottom: 1px solid #e1e1e136;
+						&:hover{
+							color:#fff;
+							background-color: #000;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media (max-width:$screen-md-min){
+		.searchWrap{
+			flex-direction: column;
+			width: 100%;
+		}
+		.header-text{
+			width: 100%;
+			text-align: center;
+		}
+		.wrapper-se{
+			flex-direction: column;
+		}
+		.mbSearh{
+			width: 100%;
+		}
+		.allcategories{
+			margin-top: 15px;
+		}
+		.search-item{
+			margin-top: 15px;
+		}
+		.search-pincode{
+			margin-top: 15px;
+			margin-left: 0 !important;
+				
+		}
+		.form-action{
+			width: 100%;
+			.btn-search{
+				margin-top: 15px;
+				width: 99%;
+				margin-left: 0 !important;
+			}
+		}
+		
+	}
+
+	@media (max-width:$screen-xxl-min){
+		.buisneswrap{
+			
+			margin: 13px 0;
+			padding: 0;
+
+				li{
+					padding: 12px;
+					// a{
+					// 	font-size: 0.6rem;
+					// }
+					
+				}
+			
+		}
+	}
+
+	@media (max-width:$screen-xl-min){
+		.buisneswrap{
+			
+			margin: 13px 0;
+			padding: 0;
+
+				li{
+					padding: 8px;
+					// a{
+						
+					// }
+					
+				}
+			
+		}
+	}
+
+	@media (max-width:$screen-lg-min){
+		.header-text{
+			width: 120px;
+			margin-top: -10px;
+		}
+		.mbSearh{
+			margin-top: -17px;
+		}
+		.buisneswrap{
+			width: 100%;	
+			margin:  0;
+			padding: 0;
+
+				li{
+					width: 100%;
+					text-align: center;
+					padding: 8px;
+					a{
+						font-size: 1.5vw;
+						padding: 0;
+						// i{
+							
+						// }
+					}
+					
+				}
+			
+		}
+	}
+
+	@media (max-width:$screen-md-min){
+		.header-text{
+			width: 100%;
+			margin: 10px 0 10px;
+		}
+	
+	}
+
+	@media screen and (max-width: 1440px) and (min-width: 1382px){
+		.buisneswrap{
+			li{
+				a{
+					font-size: 0.8vw;
+				}
+			}
+		}
+
+	}
+	
+}

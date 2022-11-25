@@ -1,0 +1,62 @@
+#advertismentSection{
+   .people{
+    position: relative;
+
+    .owl-buttons{
+        position: absolute;
+    top: -30px;
+    right: 23px;
+
+    .owl-prev, .owl-next{
+        background-color: #dc3545;
+        columns: #fff;
+    }
+    }
+    .items{
+        margin-bottom: 30px;
+        cursor: pointer;
+
+        .box{
+            text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+
+    .cover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(31,148,255,0.75);
+        transition: opacity 0.15s ease-in;
+        opacity: 0;
+        padding-top: 80px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+    }
+        }
+
+        .name {
+            font-weight: bold;
+            margin-bottom: 8px;
+          }
+
+          .title {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #bbd8fb;
+            letter-spacing: 2px;
+            font-size: 13px;
+            margin-bottom: 20px;
+          }
+
+       &:hover .cover{
+           opacity: 1;
+       } 
+    }
+}
+}

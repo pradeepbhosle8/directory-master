@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Demo1</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- google font roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- bootstrp  -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.css">
+    <link rel="stylesheet" href="../assets/css/lightslider.css">
+    
+
+</head>
+
+<body>
+
+    <header id="headerSection" class="bg-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                    <div class="logo header-logo-bg">
+                        <a href="">
+                            <img src="../assets/images/logo.png" class="img-fluid" alt="logo">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="d-flex justify-content-start align-items-center mt-3 wrapper-se">
+
+                        <!-- <div class="header-text">
+							<p class="text-white">$5200 + Available Saving 19200 Total Listing</p>
+						</div> -->
+
+                        <div class="flex3 mbSearh">
+                            <form action="">
+                                <div class="d-flex align-items-center justify-content-center searchWrap">
+
+                                    <select class="form-select allcategories ms-2 me-2"
+                                        aria-label="Default select example">
+                                        <option selected>All Categories</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+
+                                    <input type="text" class="search-item form-control" name="" id="lookingfor"
+                                        placeholder="Search For...">
+
+                                    <input type="number" class="search-pincode form-control ms-2" name=""
+                                        id="lookingfor" placeholder="Pin code">
+
+                                    <div class="form-action">
+                                        <button class="ms-2 btn-search">
+                                            <i class="fas fa-search"></i>
+                                            Search
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                    <ul class="d-flex justify-content-center  align-items-center buisneswrap">
+                        <!-- <li>
+                            <a href="">
+                                <i class="fas fa-plus-circle me-2"></i>
+                                Add Buisness</a>
+                        </li> -->
+                        <li>
+							<a href="" class="dropdown-toggle" id="dropdownMenuButton2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<i class="fas fa-plus-circle me-2"></i>
+								Pages</a>
+								<ul class="dropdown-menu dropdown-menu-dark buisneswrapdropdown" aria-labelledby="dropdownMenuButton2" >
+									<li><a class="dropdown-item" href="store.html">Store.html</a></li>
+									<li><a class="dropdown-item" href="bookmark_store.html">BookmarkStore.html</a></li>
+									<li><a class="dropdown-item" href="compare.html">Compaire Product</a></li>
+									<li><a class="dropdown-item" href="dealer_listing.html">Delaler Listing</a></li>
+									<li><a class="dropdown-item" href="single_product.html">Single Product</a></li>
+									<li><a class="dropdown-item" href="login.html">Login</a></li>
+									<li><a class="dropdown-item" href="vendor_membership.html">Vendor Member</a></li>
+									<li><a class="dropdown-item" href="vendorRegistration.html">Vendor Registration</a></li>
+									<li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+									<li><a class="dropdown-item" href="otp.html">otp</a></li>
+									<li><a class="dropdown-item" href="privacyPolicy.html">Priavcy Policy</a></li>
+									<li><a class="dropdown-item" href="kyc-form.html">KYC Form</a></li>
+									<li><a class="dropdown-item" href="terms&Conditions.html">Term and Condition</a></li>
+								  </ul>
+						</li>
+                        <li><a href="./login.html"><i class="fas fa-sign-in-alt me-2"></i>Sign In</a></li>
+                        <li><a href="./compare.html"> <i class="fas fa-exchange-alt me-2"></i>Compaire</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section id="breadcrumb" class="m-0 pt-2 pb-2">
+        <div class="container">
+            <div class="">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Single Product</li>
+                    </ol>
+                  </nav>
+            </div>
+        </div>
+    </section>
+
+    <section id="singleProductView">
+
+        <div class="container">
+            <div class="row">
+                <article class="col-md-12 border rounded shadow-sm">
+
+                    <div class="col-12 img-product-gallery-wrapper">
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                                <div class="lightslider-Wrapper">
+                                    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                                        <li data-thumb="../assets/images/slider/tv.png"> 
+                                            <img src="../assets/images/slider/tv.png" />
+                                        </li>
+                                        <li data-thumb="../assets/images/slider/tv1.png"> 
+                                            <img src="../assets/images/slider/tv1.png" />
+                                        </li>
+                                        <li data-thumb="../assets/images/slider/tv2.png"> 
+                                            <img src="../assets/images/slider/tv2.png" />
+                                        </li>
+                                        <li data-thumb="../assets/images/slider/tv.png"> 
+                                            <img src="../assets/images/slider/tv.png" />
+                                        </li>
+                                        <li data-thumb="../assets/images/slider/tv1.png"> 
+                                            <img src="../assets/images/slider/tv1.png" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 imgDescWrapper">
+                                <div class="img-product-description">
+                                    <h2>Samsung QA55Q70T 55(138 cm) QLED TV</h2>
+                                    <div class="img-product-review d-flex align-items-center">
+                                        <ul class="review">
+                                            <li>
+                                                <div class="star-rating">
+                                                    <span class="rating-stars">
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star checked"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                      
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="p">
+                                                    <span>3.5/5</span>
+                                                    - 6 Ratings
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="p">
+                                                    <span>2K</span>
+                                                    Views
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                        <div class="img-product-action ms-auto mt-3 mt-0">
+                                            <span>
+                                                <a href="">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </span>
+
+                                            <span class="compare">
+                                                <a href="">
+                                                    <i class="fa fa-balance-scale"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+
+                                        
+
+                                    </div>
+                                    
+
+                                    <ul class="img-info-list">
+                                        <li>Screen Size : 55(138 cm)</li>
+                                        <li>Quantum Processor 4K</li>
+                                        <li>USB : 2, HDMI : 4</li>
+                                        <li>Quantum HDR</li>
+                                        <li>4K Smart QLED TV</li>
+                                        <li>Multiple Voice Assistants</li>
+                                        <li>Smart Tv Powered by Tizen</li>
+                                        
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                   
+                                    <div class="social-aware mt-4">
+                                        <div class="img-publisher">
+                                            Vendor : 
+                                            <a href="">Vijay Sales Exclusive Showroom Store</a>
+                                        </div>
+                                        <ul class="social-linksa">
+                                            <li><a href="" target="_blank"> <i class="fab fa-facebook-square fb"></i> </a></li>
+                                            <li><a href="" target="_blank"> <i class="fab fa-twitter-square tw"></i> </a></li>
+                                            <li><a href="" target="_blank"> <i class="fab fa-instagram-square"></i> </a></li>
+                                            <li><a href="" target="_blank"> <i class="fab fa-linkedin"></i> </a></li>
+                                        </ul> 
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h6 class="mt-3 text-center fs-6">FROM PRADEEP HUB NOW SHOP</h6>
+                                            <ul class="image-product-list-buy scrollbar" id="style-3">
+                                             
+        
+                                                <li>
+                                                    <span class="best-product">Best</span>
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/flipkart.png" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">98,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+                                                </li>
+        
+                                                <li>
+        
+                                                    <!-- <span class="best-product">Best</span> -->
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/ebay.png" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">97,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+        
+                                                </li>
+        
+                                                
+                                            </ul>
+
+                                            
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h6 class="mt-3 text-center fs-6">BUY AT (SPONSORED)</h6>
+                                            <ul class="image-product-list-buy scrollbar" id="style-3">
+                                                
+                                                <li>
+                                                    <span class="best-product">Best</span>
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/vijaysales.png" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">99,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+                                                </li>
+        
+                                                <li>
+                                                    <span class="best-product">Best</span>
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/lg.png" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">98,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+                                                </li>
+        
+                                                <li>
+        
+                                                    <!-- <span class="best-product">Best</span> -->
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/mixiaomi.png" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">97,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+        
+                                                </li>
+        
+                                                <li>
+        
+                                                    <span class="best-product">Best</span>
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/samsung.jpg" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">99,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+        
+                                                </li>
+        
+                                                <li>
+        
+                                                    <!-- <span class="best-product">Best</span> -->
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/ebay.png" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">1,00,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+        
+                                                </li>
+        
+                                                <li>
+        
+                                                    <!-- <span class="best-product">Best</span> -->
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/sony.png" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">98,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+        
+                                                </li>
+        
+                                                <li>
+        
+                                                    <span class="best-product">Best</span>
+                                                    <div class="vendor-product-logo">
+                                                    <img src="../assets/images/store/brand/tcl.png" alt="">
+                                                    </div>
+                                                    <div class="p vendor-price me-auto ms-auto">
+                                                    <span class="currency-symbol">&#8377; </span>
+                                                    <span class="price-min">99,999</span>
+                                                    </div>
+                                                    <div class="p d-block text-success">In Stock
+                                                    </div>
+                                                    <a href="" target="_blank" class="btn btn-danger">View </a>
+        
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                   <div class="row " >
+                       <div class="col-sm-12">
+                           <div class="sponsorAll">
+                            <h6 class="mt-3 text-left fs-6">SEE ALSO (SPONSORED)</h6>
+                           
+                        <ul class="image-product-list-buy scrollbar" id="style-3">
+                                             
+        
+                            <li>
+                                <!-- <span class="best-product">Best</span> -->
+                                <div class="vendor-product-logo">
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                               
+                                </div>
+                                <span>Samsung QA55Q70T 55(138 Cm) QLED TV</span>
+                                <div class="p vendor-price  ms-auto">
+                                <span class="currency-symbol">&#8377; </span>
+                                <span class="price-min">98,999</span>
+                                </div>
+                               
+                                <div class="p d-block text-success">In Stock
+                                </div>
+                                <img src="../assets/images/store/brand/vijaysales.png " class="img-fluid me-auto ms-auto" alt="">
+                                <a href="" target="_blank" class="btn btn-danger">View </a>
+                            </li>
+
+                            <li>
+                                <!-- <span class="best-product">Best</span> -->
+                                <div class="vendor-product-logo">
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                               
+                                </div>
+                                <span>Samsung QA55Q70T 55(138 Cm) QLED TV</span>
+                                <div class="p vendor-price  ms-auto">
+                                <span class="currency-symbol">&#8377; </span>
+                                <span class="price-min">98,999</span>
+                                </div>
+                               
+                                <div class="p d-block text-dark">Outof Stock
+                                </div>
+                                <img src="../assets/images/store/brand/vijaysales.png " class="img-fluid me-auto ms-auto" alt="">
+                                <a href="" target="_blank" class="btn btn-danger">View </a>
+                            </li>
+
+                            <li>
+                                <!-- <span class="best-product">Best</span> -->
+                                <div class="vendor-product-logo">
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                               
+                                </div>
+                                <span>Samsung QA55Q70T 55(138 Cm) QLED TV</span>
+                                <div class="p vendor-price  ms-auto">
+                                <span class="currency-symbol">&#8377; </span>
+                                <span class="price-min">98,999</span>
+                                </div>
+                               
+                                <div class="p d-block text-success">In Stock
+                                </div>
+                                <img src="../assets/images/store/brand/vijaysales.png " class="img-fluid me-auto ms-auto" alt="">
+                                <a href="" target="_blank" class="btn btn-danger">View </a>
+                            </li>
+
+                            <li>
+                                <!-- <span class="best-product">Best</span> -->
+                                <div class="vendor-product-logo">
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                               
+                                </div>
+                                <span>Samsung QA55Q70T 55(138 Cm) QLED TV</span>
+                                <div class="p vendor-price  ms-auto">
+                                <span class="currency-symbol">&#8377; </span>
+                                <span class="price-min">98,999</span>
+                                </div>
+                               
+                                <div class="p d-block text-success">In Stock
+                                </div>
+                                <img src="../assets/images/store/brand/vijaysales.png " class="img-fluid me-auto ms-auto" alt="">
+                                <a href="" target="_blank" class="btn btn-danger">View </a>
+                            </li>
+
+                            <li>
+                                <!-- <span class="best-product">Best</span> -->
+                                <div class="vendor-product-logo">
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                               
+                                </div>
+                                <span>Samsung QA55Q70T 55(138 Cm) QLED TV</span>
+                                <div class="p vendor-price  ms-auto">
+                                <span class="currency-symbol">&#8377; </span>
+                                <span class="price-min">98,999</span>
+                                </div>
+                               
+                                <div class="p d-block text-success">In Stock
+                                </div>
+                                <img src="../assets/images/store/brand/vijaysales.png " class="img-fluid me-auto ms-auto" alt="">
+                                <a href="" target="_blank" class="btn btn-danger">View </a>
+                            </li>
+
+                            
+                        </ul>
+                    </div>
+                       </div>
+                   </div>
+
+                </article>
+
+                <div class="col-12 img-product-detials-tab-area p-0">
+                    <div class="col-xl-12 border rounded shadow-sm p-3 mt-3">
+
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="Description-tab" data-bs-toggle="tab" href="#Description" role="tab"
+                                    aria-controls="Description" aria-selected="true">
+                                    <div class="CategoriesHeading">
+                                        <h4> Description</h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item "  role="presentation">
+                                <a class="nav-link" id="Specifiction-tab" data-bs-toggle="tab" href="#Specifiction" role="tab"
+                                    aria-controls="Specifiction" aria-selected="false">
+    
+                                    <div class="CategoriesHeading">
+                                        <h4>Full Specifiction</h4>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="rating-tab" data-bs-toggle="tab" href="#rating" role="tab"
+                                    aria-controls="rating" aria-selected="false">
+                                    <div class="CategoriesHeading">
+                                        <h4>Rating</h4>
+                                    </div>
+                                </a>
+                            </li> -->
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="Review-tab" data-bs-toggle="tab" href="#Review" role="tab"
+                                    aria-controls="Review" aria-selected="false">
+                                    <div class="CategoriesHeading">
+                                        <h4>Reviews</h4>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+
+                <div class="row">
+                <div class="col-xl-8 col-sm-12  mt-2 ">
+                    <div class="tab-content " id="myTabContent">
+                        <div class="tab-pane fade show active" id="Description" role="tabpanel" aria-labelledby="Description-tab">
+
+                            <div class="store-list shadow-sm rounded p-4 pt-2 mb-4 border ps-0 img-product-detials-Wrap">
+                                
+                                <div class="row ps-4">
+                                    <h3>Experience the full power of QLED</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium commodi deserunt earum eos similique, architecto quam facere velit debitis repellendus cupiditate a ratione? Ullam qui non hic cum voluptatum. Natus dicta pariatur quae, laboriosam sunt minus ipsa, adipisci ducimus, quibusdam ab id aut consectetur repudiandae libero ex quisquam exercitationem fugit.
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium commodi deserunt earum eos similique, architecto quam facere velit debitis repellendus cupiditate a ratione? Ullam qui non hic cum voluptatum. Natus dicta pariatur quae, laboriosam sunt minus ipsa, adipisci ducimus, quibusdam ab id aut consectetur repudiandae libero ex quisquam exercitationem fugit.
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium commodi deserunt earum eos similique, architecto quam facere velit debitis repellendus cupiditate a ratione? Ullam qui non hic cum voluptatum. Natus dicta pariatur quae, laboriosam sunt minus ipsa, adipisci ducimus, quibusdam ab id aut consectetur repudiandae libero ex quisquam exercitationem fugit.
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo amet ea, odit illum aliquam, ipsa culpa quae dolor ullam dolorem tempora aliquid, sit velit quasi animi totam sint non nesciunt recusandae tempore quos dolore commodi. Ipsum perferendis veniam explicabo, asperiores rerum hic ipsam aliquid nulla dolores quis tempora debitis ad?
+                                    </p>
+                                    <h3>Powerful intelligence for perfection</h3>
+                                    <figure class="figure float-start w-50">
+                                        <img src="../assets/images/store/tvdesc.jpg" class="figure-img img-fluid rounded" alt="...">
+                                        <figcaption class="figure-caption">Upgrade what you like to 4K</figcaption>
+                                      </figure>
+
+                                      <figure class="figure float-end w-50">
+                                        <img src="../assets/images/store/tvdesc1.jpg" class="figure-img img-fluid rounded" alt="...">
+                                        <figcaption class="figure-caption">Surroundings change, picture perfect</figcaption>
+                                      </figure>
+                           
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium commodi deserunt earum eos similique, architecto quam facere velit debitis repellendus cupiditate a ratione? Ullam qui non hic cum voluptatum. Natus dicta pariatur quae, laboriosam sunt minus ipsa, adipisci ducimus, quibusdam ab id aut consectetur repudiandae libero ex quisquam exercitationem fugit.
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium commodi deserunt earum eos similique, architecto quam facere velit debitis repellendus cupiditate a ratione? Ullam qui non hic cum voluptatum. Natus dicta pariatur quae, laboriosam sunt minus ipsa, adipisci ducimus, quibusdam ab id aut consectetur repudiandae libero ex quisquam exercitationem fugit.
+                                       
+                                    </p>
+                                    <div class="comments-img">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta iste optio similique atque fugit, sit velit quibusdam obcaecati libero aliquid repudiandae et maiores. Eaque, alias soluta dolores delectus est fugit.
+                                    </div>
+                                   
+                            
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade " id="Specifiction" role="tabpanel" aria-labelledby="Specifiction-tab">
+                            
+                            <div class="store-list shadow-sm rounded p-4 mb-4 border ps-0">
+                                
+                                <div class="row ps-4">
+                                    <h3>Specifications</h3>
+                                    <p> Specifications Of Samsung QA55Q70T 55(138 cm) QLED TV</p>
+                                    
+                                    <ul class="specifiction_list">
+                                        <li>
+                                            <div class="info-section">
+                                                Series :
+                                            </div>
+                                            <div class="info-section">
+                                                Q60T
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="info-section">
+                                                Model :
+                                            </div>
+                                            <div class="info-section">
+                                                55Q60T
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="info-section">
+                                                Colour :
+                                            </div>
+                                            <div class="info-section">
+                                                Black
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="info-section">
+                                                Brand :
+                                            </div>
+                                            <div class="info-section">
+                                                Samsung
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="info-section">
+                                                HDR :
+                                            </div>
+                                            <div class="info-section">
+                                                Yes
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="info-section">
+                                                Surround Sound Technology :
+                                            </div>
+                                            <div class="info-section">
+                                                Yes
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="info-section">
+                                                Screen Size (Diagonal) :
+                                            </div>
+                                            <div class="info-section">
+                                                138 cm (55 inch)
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="info-section">
+                                                Screen Resolution :
+                                            </div>
+                                            <div class="info-section">
+                                                3840 x 2160 - Ultra HD
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="info-section">
+                                                No. of USB Ports :
+                                            </div>
+                                            <div class="info-section">
+                                                2
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="info-section">
+                                                No of HDMI Ports :
+                                            </div>
+                                            <div class="info-section">
+                                                3
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="info-section">
+                                                Stream Content from devices :
+                                            </div>
+                                            <div class="info-section">
+                                                Yes
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="info-section">
+                                                Wi-Fi :
+                                            </div>
+                                            <div class="info-section">
+                                                Yes
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- <div class="tab-pane fade" id="rating" role="tabpanel" aria-labelledby="rating-tab">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sint delectus magni
+                            aperiam quibusdam nobis!
+                        </div> -->
+                        <div class="tab-pane fade" id="Review" role="tabpanel" aria-labelledby="Review-tab">
+                         <div class="post-reviewWrap shadow-sm rounded p-4 mb-4 border ">
+                        
+                            <h6 class="review-rating-title">Average Ratings</h6>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row tab-rating-bar-section">
+
+                                        <div class="col-md-4 col-lg-3">
+                                            <div class="total_review_wrap">
+                                                <img src="../assets/images/review-bg.png" alt="">
+                                                <div class="review-rating text-center">
+                                                    <h2 class="rating">3.53</h2>
+                                                    <p>Based on 23 ratings</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-8 col-xl-7 rating-bar-section">
+
+                                            <div class="media rating-star-area">
+                                                <p>
+                                                    5
+                                                    <i class="fa fa-star checked"></i>
+                                                </p>
+                                                <div class="media-body rating-bar position-relative">
+                                                    <span class="reviewsW">1</span>
+                                                    <div class="progress wd-progress">
+                                                     
+                                                        <div class="progress-bar five-star-bar bg-success" style="width: 100%;" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="media rating-star-area">
+                                                <p>
+                                                    4
+                                                    <i class="fa fa-star"></i>
+                                                </p>
+                                                <div class="media-body rating-bar position-relative">
+                                                    <div class="progress wd-progress">
+                                                        <div class="progress-bar five-star-bar bg-success" style="width: 75%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="media rating-star-area">
+                                                <p>
+                                                    3
+                                                    <i class="fa fa-star checked"></i>
+                                                </p>
+                                               
+                                                <div class="media-body rating-bar position-relative">
+                                                    <span class="reviewsW">2</span>
+                                                    <div class="progress wd-progress">
+                                                        <div class="progress-bar five-star-bar bg-success" style="width: 50%;" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="media rating-star-area">
+                                                <p>
+                                                    2
+                                                    <i class="fa fa-star"></i>
+                                                </p>
+                                                <div class="media-body rating-bar position-relative">
+                                                    <div class="progress wd-progress">
+                                                        <div class="progress-bar five-star-bar bg-danger" style="width: 35%;" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="media rating-star-area">
+                                                <p>
+                                                    1
+                                                    <i class="fa fa-star"></i>
+                                                </p>
+                                                <div class="media-body rating-bar position-relative">
+                                                    <div class="progress wd-progress">
+                                                        <div class="progress-bar five-star-bar bg-danger" style="width: 25%;" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ReviwWrapp">
+
+                                <h3 class="review-title">
+                                    16 Review  
+                                    <button class="btn btn-info bg-gradient ms-3" data-bs-toggle="modal" data-bs-target="#AddReview">Add Review</button>
+                                </h3>
+
+                                <div class="single-review pt-4">
+                               
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="../assets/images/avtar-M.jpg" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="review-wrapper clearfix">
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        <span class="review-holder-name h5">Pradeep Bhosle</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="rating-stars">
+                                                            <i class="fa fa-star checked"></i>
+                                                            <i class="fa fa-star checked"></i>
+                                                            <i class="fa fa-star checked"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            23 Ratings
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <p class="review-date">September 9, 2020</p>
+                                                <p class="copy">
+                                                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, mollitia atque cupiditate natus, assumenda omnis culpa autem nisi rem ipsa expedita nostrum aut. Ab reprehenderit non adipisci. Facilis fuga, praesentium laudantium deleniti sed ipsum voluptas, totam laborum iusto, aspernatur blanditiis quo sint dolorem tempore dicta quae expedita explicabo doloribus eius.
+                                                </p>
+                                                <p>
+                                                    <a class="float-right btn btn-outline-primary btn-sm ms-3 float-end"> <i class="fa fa-reply"></i> Reply</a>
+                                                    <a class="float-right btn text-white btn-danger btn-sm float-end"> <i class="fa fa-heart"></i> Like</a>
+                                                </p>
+                                                <div class="clearfix"></div>
+                                                <hr>
+                                                <!-- replay section -->
+                                                <div class="single-review pt-2">
+                                                    <div class="media">
+                                                        <div class="media-left">
+                                                            <img src="../assets/images/img_avatar_G.png" alt="">
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <div class="review-wrapper clearfix">
+                                                                <ul class="list-inline">
+                                                                    <li>
+                                                                        <span class="review-holder-name h5">Pradeep Bhosle</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <span class="rating-stars">
+                                                                            <i class="fa fa-star checked"></i>
+                                                                            <i class="fa fa-star checked"></i>
+                                                                            <i class="fa fa-star checked"></i>
+                                                                            <i class="fa fa-star"></i>
+                                                                            <i class="fa fa-star"></i>
+                                                                            23 Ratings
+                                                                        </span>
+                                                                    </li>
+                                                                </ul>
+                                                                <p class="review-date">September 9, 2020</p>
+                                                                <p class="copy">
+                                                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, sit?
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- replay section close  -->
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    
+    
+                                </div>
+
+                                <div class="single-review pt-4">
+                               
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="../assets/images/avtar-M.jpg" alt="">
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="review-wrapper clearfix">
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        <span class="review-holder-name h5">Pradeep Bhosle</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="rating-stars">
+                                                            <i class="fa fa-star checked"></i>
+                                                            <i class="fa fa-star checked"></i>
+                                                            <i class="fa fa-star checked"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            23 Ratings
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <p class="review-date">September 9, 2020</p>
+                                                <p class="copy">
+                                                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, mollitia atque cupiditate natus, assumenda omnis culpa autem nisi rem ipsa expedita nostrum aut. Ab reprehenderit non adipisci. Facilis fuga, praesentium laudantium deleniti sed ipsum voluptas, totam laborum iusto, aspernatur blanditiis quo sint dolorem tempore dicta quae expedita explicabo doloribus eius.
+                                                </p>
+                                                <p>
+                                                    <a class="float-right btn btn-outline-primary btn-sm ms-3 float-end"> <i class="fa fa-reply"></i> Reply</a>
+                                                    <a class="float-right btn text-white btn-danger btn-sm float-end"> <i class="fa fa-heart"></i> Like</a>
+                                                </p>
+                                                <div class="clearfix"></div>
+                                                <!-- <hr> -->
+                                                
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    
+    
+                                </div>
+
+
+                            </div>
+                           
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-sm-12 mt-2 ">
+                    <div class="shadow-sm rounded p-4 pt-2 mb-4 border ps-0 rightSection">
+                        <h6 class="mt-3 text-center text-danger fs-6">Today's Hot Deals</h6>
+                        <hr>
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+
+                        <article class="list-Items">
+												
+                            <a href="" class="article-img">
+                                
+                                <img src="../assets/images/store/tv.jpg" alt="">
+                                <!-- <figure>40% Off</figure> -->
+                                
+                            </a>
+                            <div class="article-desc">
+                                <a href=""><h5 class="article-title mb-1">Samsung QA55Q70T 55(138 Cm) QLED TV</h5></a>
+                                <!-- <div class="badge bg-info ">Car Rental</div>  -->
+                                <span class="rating-stars ms-2">
+                                    <i class="fa fa-star  checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star checked"></i>
+                                    <i class="fa fa-star "></i>
+                                    <i class="fa fa-star"></i>
+                                23 Ratings
+                                </span>
+                                <p class="text-secondary mt-2  mb-2">
+                                    <i class="fas fa-tag"></i>
+                                    <s>&#8377; 1,900</s>
+                                    <span class="fw-bold text-danger ms-3">&#8377; 990 </span>
+                                </p>
+                                <img src="../assets/images/store/brand/vijaysales.png" class="w-120 img-fluid" alt="">
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, architecto.</p> -->
+                                
+                            </div>
+                        </article>
+                        
+                    </div>
+                  
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+
+       
+    </section> 
+
+
+
+
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation">
+                <h3><a href="#"><img src="../assets/images/logo.png" alt=""></a></h3>
+                <!-- <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p> -->
+                <p class="company-name">Company Name © 2020 </p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                    <p><span class="new-line-span">21 Lorem, ipsum dolor.</span> Lorem, ipsum.</p>
+                </div>
+                <div><i class="fa fa-phone footer-contacts-icon"></i>
+                    <p class="footer-center-info email text-left"> +1 555 123456</p>
+                </div>
+                <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                    <p> <a href="#" target="_blank">lorem@company.com</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-4 footer-about">
+                <h4>About the company</h4>
+                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor
+                    lacus vehicula sit amet. </p>
+                <div class="social-links social-icons"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i
+                            class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-facebook-f"></i></a><a
+                        href="#"><i class="fab fa-facebook-f"></i></a></div>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- Modal add Review -->
+<div class="modal fade" id="AddReview" tabindex="-1" aria-labelledby="AddReviewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-info bg-gradient">
+          <h5 class="modal-title" id="AddReviewLabel">Add Review</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            
+            <form id="review-form">
+                <fieldset class="border p-3 rounded">
+                <div class="ratingProduct">
+                    <h6>Rate this product</h6>
+                   
+                       
+                    <div class="rate">
+                        <ul>
+                            <li>
+                                <input type="radio" id="rating-1" name="rating" value="1"/>
+                                <label for="rating-1">Rate 1 star</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="rating-2" name="rating" value="2" />
+                                <label for="rating-2">Rate 2 stars</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="rating-3" name="rating" value="3"/>
+                                <label for="rating-3">Rate 3 stars</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="rating-4" name="rating" value="4"/>
+                                <label for="rating-4">Rate 4 stars</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="rating-5" name="rating" value="5"/>
+                                <label for="rating-5">Rate 5 stars</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviewProduct mt-3">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label"><h6>Review this product</h6></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"><h6>Review Title</h6></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Review Title...">
+                          </div>
+
+                          <div class="form-action mt-3">
+                           <button class="btn btn-danger bg-danger bg-gradient w-25">Submit</button>
+                          </div>
+                    </div>
+                </fieldset>
+                </form>
+                </div>
+
+              </form>
+
+        </div>
+       
+      </div>
+    </div>
+  </div>
+    <!-- close Modal add Review -->
+
+
+    <!-- script section -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    
+    <script src="../assets/js/myscript.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/js/lightslider.js"></script>
+    <script >
+        $(document).ready(function() {
+		
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:4,
+                slideMargin: 0,
+                galleryMargin: 15,
+                thumbMargin: 15,
+                enableDrag: false,
+            currentPagerPosition:'left',
+            enableTouch:true,
+            enableDrag:true,
+                speed:600,
+                auto:true,
+                loop:false,
+                pause: 2000,
+               
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+		});
+    </script>
+</body>
+
+</html>
